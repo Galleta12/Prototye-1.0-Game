@@ -233,6 +233,8 @@ $RECYCLE.BIN/
 
 
 #other files
-.polyperfect/
+.Assets/polyperfect/
+.Assets/Nephilite Studios/
+.Assets/Shinabro/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,visualstudiocode,rider,unity
