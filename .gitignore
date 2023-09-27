@@ -230,4 +230,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+
+
+#other files
+.polyperfect/
+
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,visualstudiocode,rider,unity
