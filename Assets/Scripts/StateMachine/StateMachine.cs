@@ -63,12 +63,12 @@ public class StateMachine : MonoBehaviour
 
     private void FixedUpdate() {
         currentParentState?.FixedTick(Time.fixedDeltaTime);
-        currentParentState.currentSubState?.FixedTick(Time.fixedDeltaTime);
+        currentParentState?.currentSubState?.FixedTick(Time.fixedDeltaTime);
     }
     
     private void Update() {
         currentParentState?.Tick(Time.deltaTime);
-        currentParentState.currentSubState?.Tick(Time.deltaTime);
+        currentParentState?.currentSubState?.Tick(Time.deltaTime);
 
     }
 

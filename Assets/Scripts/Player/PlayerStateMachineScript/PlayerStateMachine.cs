@@ -7,7 +7,7 @@ using ForcesOfCharacters;
 
 
     
-public class PlayerStateMachine : StateMachine
+public class PlayerStateMachine : StateMachine 
 {
 
 
